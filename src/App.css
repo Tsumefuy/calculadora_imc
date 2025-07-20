@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: auto;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+
+}
+
+.form-container {
+  padding: 2px;
+  width: 100%;
+  max-width: 38rem;
+  margin: 0 auto;
+  border-radius: 10px;  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.form-text-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-radio {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.form-radio div {
+  display: inline;
+}
+
+.kid-age {
+  display: flex;
+  flex-direction:row;
+  gap: 10px;
+}
+
+.kid-age input {
+  width: 100%;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+  color: #4b3b72;
+
+  border: none;
+  border-left: 5px solid;
+  border-radius: 15px;
+
+  animation: fadeIn 0.4s ease-in-out;
+  transition: border-color 0.5s, background-color 0.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.imc {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.grau {
+  margin-top: 0;
+  font-size: 1.6rem;
+}
