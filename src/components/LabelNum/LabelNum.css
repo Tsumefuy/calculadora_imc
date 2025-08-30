@@ -1,0 +1,4 @@
+.form-text-label {
+  display: flex;
+  flex-direction: column;
+}

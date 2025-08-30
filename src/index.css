@@ -69,6 +69,7 @@ input[type=radio] {
 }
 
 fieldset {
+  text-align: left;
   border: none;
   padding: 0;
   margin: 0 0 0 0;
